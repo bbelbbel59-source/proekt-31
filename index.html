@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preload" as="image" href="/src/assets/car-hero.jpg">
+  <title>AUTOVA — Avtomobillar olami</title>
+  <!-- <meta name="description" content="Porsche, BMW va Ferrari. Avtomobillar, mukammal dizayn va haydash zavqini AUTOVA bilan kashf eting.">
+  <meta property="og:title" content="AUTOVA — Avtomobillar olami">
+  <meta property="og:description" content="Tezlik, xarakter va mukammal dizayn. Sevimli avtomobilingizni kashf eting.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image"> -->
+  <link rel="icon" href="favicon.svg">
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;650;700;800&amp;display=swap"> -->
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<body>
+  <div id="home">
+
+    <!-- HEADER -->
+    <header class="header container">
+      <a href="#home" class="wordmark" aria-label="AUTOVA bosh sahifa">
+        <span class="brand-mark">
+          <i></i>
+          <i></i>
+          <i></i>
+        </span>
+        AUTO<span>VA</span>
+      </a>
+
+      <nav class="navigation" aria-label="Asosiy menyu">
+        <a href="#home">Bosh sahifa</a>
+        <a href="#collection">Avtomobillar</a>
+        <a href="#compare">Taqqoslash</a>
+        <a href="#journal">Jurnal</a>
+        <a href="#about">Biz haqimizda</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn btn-icon h-9 px-4 py-2" aria-label="Sevimli avtomobillar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart" aria-hidden="true">
+            <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path>
+          </svg>
+        </button>
+
+        <a href="#collection" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn btn-dark h-9 px-4 py-2">
+          Kashf etish
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+            <path d="M7 7h10v10"></path>
+            <path d="M7 17 17 7"></path>
+          </svg>
+        </a>
+
+        <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn btn-icon h-9 px-4 py-2 menu-button" aria-label="Menyuni ochish" aria-expanded="false">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu" aria-hidden="true">
+            <path d="M4 5h16"></path>
+            <path d="M4 12h16"></path>
+            <path d="M4 19h16"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- HERO -->
+      <section class="hero" aria-label="Porsche 911 GT3">
+        <img class="hero-image" src="images/car-hero.jpg" alt="Sohil yo‘lida qora Porsche 911 GT3" width="1920" height="1024">
+
+        <div class="hero-content container reveal">
+          <div class="eyebrow">
+            <span class="line"></span>
+            AVTOMOBIL EMAS. BU — XARAKTER.
+          </div>
+          <h1>
+            Tezlikni his et.<br>
+            <em>Chegaradan o‘t.</em>
+          </h1>
+          <p class="hero-description">Mukammal dizayn. Cheksiz quvvat. Har bir yo‘lni yangi taassurotga aylantiradigan avtomobillar olami.</p>
+
+          <div class="hero-actions">
+            <a href="#collection" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn btn-primary h-9 px-4 py-2">
+              Avtomobillarni ko‘rish
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path>
+              </svg>
+            </a>
+
+            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn btn-hero h-9 px-4 py-2">
+              Batafsil
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-bottom container">
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <strong>510<small>ot kuchi</small></strong>
+              <p>Sof quvvat</p>
+            </div>
+            <div class="hero-stat">
+              <strong>3.4<small>soniya</small></strong>
+              <p>0–100 km/soat</p>
+            </div>
+            <div class="hero-stat">
+              <strong>318<small>km/soat</small></strong>
+              <p>Maksimal tezlik</p>
+            </div>
+          </div>
+
+          <div class="hero-caption">
+            <strong>Porsche 911 GT3</strong>
+            <span>Haydashning sof zavqi. &nbsp; 01 / 03</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- BRANDS -->
+      <section class="brands" aria-label="Avtomobil brendlari">
+        <div class="brand-inner container">
+          <p>
+            AFSONAVIY BRENDLAR.<br>
+            BETAKROR AVTOMOBILLAR.
+          </p>
+          <span class="brand-name porsche">PORSCHE</span>
+          <span class="brand-name">BMW</span>
+          <span class="brand-name">Mercedes-Benz</span>
+          <span class="brand-name ferrari">Ferrari</span>
+          <span class="brand-name">LAMBORGHINI</span>
+        </div>
+      </section>
+
+      <!-- COLLECTION -->
+      <section id="collection" class="collection container">
+        <div class="section-top">
+          <div>
+            <p class="section-label">SARALANGAN KOLLEKSIYA</p>
+            <h2>O‘z xarakteringni tanla.</h2>
+          </div>
+          <p>Har biri o‘zgacha. Har biri unutilmas.</p>
+        </div>
+
+        <div class="filters" aria-label="Avtomobil turi">
+          <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn filter h-9 px-4 py-2 active" aria-pressed="true">Barchasi</button>
+          <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn filter h-9 px-4 py-2" aria-pressed="false">Sport</button>
+          <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn filter h-9 px-4 py-2" aria-pressed="false">Kupe</button>
+          <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn filter h-9 px-4 py-2" aria-pressed="false">Superkar</button>
+          <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn filter h-9 px-4 py-2" aria-pressed="false">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart" aria-hidden="true">
+              <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path>
+            </svg>
+            Sevimlilar
+          </button>
+        </div>
+
+        <div class="car-grid">
+
+          <!-- Porsche -->
+          <article class="car-card" data-car="porsche">
+            <div class="car-image-wrap">
+              <img src="images/porsche.jpg" alt="Porsche 911 GT3" width="1024" height="640" loading="lazy">
+              <span class="tag">MUXLISLAR TANLOVI</span>
+              <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn btn-icon h-9 px-4 py-2 favorite" aria-label="Porsche 911 GT3ni sevimlilarga qo‘shish" aria-pressed="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart" aria-hidden="true">
+                  <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="car-info">
+              <p class="car-brand">Porsche</p>
+              <h3>911 GT3</h3>
+              <div class="car-specs">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap" aria-hidden="true">
+                    <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+                  </svg>
+                  510 ot kuchi
+                </span>
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-timer" aria-hidden="true">
+                    <line x1="10" x2="14" y1="2" y2="2"></line>
+                    <line x1="12" x2="15" y1="14" y2="11"></line>
+                    <circle cx="12" cy="14" r="8"></circle>
+                  </svg>
+                  3.4 soniya
+                </span>
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gauge" aria-hidden="true">
+                    <path d="m12 14 4-4"></path>
+                    <path d="M3.34 19a10 10 0 1 1 17.32 0"></path>
+                  </svg>
+                  318 km/soat
+                </span>
+              </div>
+              <div class="car-footer">
+                <span>Sport avtomobil</span>
+                <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn h-9 px-4 py-2">
+                  Batafsil ko‘rish
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- BMW -->
+          <article class="car-card" data-car="bmw">
+            <div class="car-image-wrap">
+              <img src="images/bmw.jpg" alt="BMW M4 Competition" width="1024" height="640" loading="lazy">
+              <span class="tag">KUCH VA USLUB</span>
+              <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn btn-icon h-9 px-4 py-2 favorite" aria-label="BMW M4 Competitionni sevimlilarga qo‘shish" aria-pressed="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart" aria-hidden="true">
+                  <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="car-info">
+              <p class="car-brand">BMW</p>
+              <h3>M4 Competition</h3>
+              <div class="car-specs">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap" aria-hidden="true">
+                    <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+                  </svg>
+                  510 ot kuchi
+                </span>
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-timer" aria-hidden="true">
+                    <line x1="10" x2="14" y1="2" y2="2"></line>
+                    <line x1="12" x2="15" y1="14" y2="11"></line>
+                    <circle cx="12" cy="14" r="8"></circle>
+                  </svg>
+                  3.9 soniya
+                </span>
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gauge" aria-hidden="true">
+                    <path d="m12 14 4-4"></path>
+                    <path d="M3.34 19a10 10 0 1 1 17.32 0"></path>
+                  </svg>
+                  290 km/soat
+                </span>
+              </div>
+              <div class="car-footer">
+                <span>Kupe avtomobil</span>
+                <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn h-9 px-4 py-2">
+                  Batafsil ko‘rish
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Ferrari -->
+          <article class="car-card" data-car="ferrari">
+            <div class="car-image-wrap">
+              <img src="images/ferrari.jpg" alt="Ferrari 296 GTB" width="1024" height="640" loading="lazy">
+              <span class="tag">ITALIYA AFSONASI</span>
+              <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn btn-icon h-9 px-4 py-2 favorite" aria-label="Ferrari 296 GTBni sevimlilarga qo‘shish" aria-pressed="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart" aria-hidden="true">
+                  <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="car-info">
+              <p class="car-brand">Ferrari</p>
+              <h3>296 GTB</h3>
+              <div class="car-specs">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap" aria-hidden="true">
+                    <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+                  </svg>
+                  830 ot kuchi
+                </span>
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-timer" aria-hidden="true">
+                    <line x1="10" x2="14" y1="2" y2="2"></line>
+                    <line x1="12" x2="15" y1="14" y2="11"></line>
+                    <circle cx="12" cy="14" r="8"></circle>
+                  </svg>
+                  2.9 soniya
+                </span>
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gauge" aria-hidden="true">
+                    <path d="m12 14 4-4"></path>
+                    <path d="M3.34 19a10 10 0 1 1 17.32 0"></path>
+                  </svg>
+                  330 km/soat
+                </span>
+              </div>
+              <div class="car-footer">
+                <span>Superkar avtomobil</span>
+                <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn h-9 px-4 py-2">
+                  Batafsil ko‘rish
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Lamborghini -->
+          <article class="car-card" data-car="lamborghini">
+            <div class="car-image-wrap">
+              <img src="images/lamborghini.jpg" alt="Lamborghini Huracán EVO" width="1024" height="640" loading="lazy">
+              <span class="tag">JASORAT RAMZI</span>
+              <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn btn-icon h-9 px-4 py-2 favorite" aria-label="Lamborghini Huracán EVOni sevimlilarga qo‘shish" aria-pressed="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart" aria-hidden="true">
+                  <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="car-info">
+              <p class="car-brand">Lamborghini</p>
+              <h3>Huracán EVO</h3>
+              <div class="car-specs">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap" aria-hidden="true">
+                    <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+                  </svg>
+                  640 ot kuchi
+                </span>
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-timer" aria-hidden="true">
+                    <line x1="10" x2="14" y1="2" y2="2"></line>
+                    <line x1="12" x2="15" y1="14" y2="11"></line>
+                    <circle cx="12" cy="14" r="8"></circle>
+                  </svg>
+                  2.9 soniya
+                </span>
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gauge" aria-hidden="true">
+                    <path d="m12 14 4-4"></path>
+                    <path d="M3.34 19a10 10 0 1 1 17.32 0"></path>
+                  </svg>
+                  325 km/soat
+                </span>
+              </div>
+              <div class="car-footer">
+                <span>Superkar avtomobil</span>
+                <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn h-9 px-4 py-2">
+                  Batafsil ko‘rish
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Mercedes -->
+          <article class="car-card" data-car="mercedes">
+            <div class="car-image-wrap">
+              <img src="images/mercedes.jpg" alt="Mercedes-Benz AMG GT S" width="1024" height="640" loading="lazy">
+              <span class="tag">NAFOSAT VA QUVVAT</span>
+              <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn btn-icon h-9 px-4 py-2 favorite" aria-label="Mercedes-Benz AMG GT Sni sevimlilarga qo‘shish" aria-pressed="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart" aria-hidden="true">
+                  <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="car-info">
+              <p class="car-brand">Mercedes-Benz</p>
+              <h3>AMG GT S</h3>
+              <div class="car-specs">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap" aria-hidden="true">
+                    <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+                  </svg>
+                  522 ot kuchi
+                </span>
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-timer" aria-hidden="true">
+                    <line x1="10" x2="14" y1="2" y2="2"></line>
+                    <line x1="12" x2="15" y1="14" y2="11"></line>
+                    <circle cx="12" cy="14" r="8"></circle>
+                  </svg>
+                  3.8 soniya
+                </span>
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gauge" aria-hidden="true">
+                    <path d="m12 14 4-4"></path>
+                    <path d="M3.34 19a10 10 0 1 1 17.32 0"></path>
+                  </svg>
+                  310 km/soat
+                </span>
+              </div>
+              <div class="car-footer">
+                <span>Kupe avtomobil</span>
+                <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn h-9 px-4 py-2">
+                  Batafsil ko‘rish
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Audi -->
+          <article class="car-card" data-car="audi">
+            <div class="car-image-wrap">
+              <img src="images/audi.jpg" alt="Audi R8 V10 Performance" width="1024" height="640" loading="lazy">
+              <span class="tag">QUATTRO XARAKTERI</span>
+              <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn btn-icon h-9 px-4 py-2 favorite" aria-label="Audi R8 V10 Performanceni sevimlilarga qo‘shish" aria-pressed="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart" aria-hidden="true">
+                  <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="car-info">
+              <p class="car-brand">Audi</p>
+              <h3>R8 V10 Performance</h3>
+              <div class="car-specs">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap" aria-hidden="true">
+                    <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+                  </svg>
+                  620 ot kuchi
+                </span>
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-timer" aria-hidden="true">
+                    <line x1="10" x2="14" y1="2" y2="2"></line>
+                    <line x1="12" x2="15" y1="14" y2="11"></line>
+                    <circle cx="12" cy="14" r="8"></circle>
+                  </svg>
+                  3.1 soniya
+                </span>
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gauge" aria-hidden="true">
+                    <path d="m12 14 4-4"></path>
+                    <path d="M3.34 19a10 10 0 1 1 17.32 0"></path>
+                  </svg>
+                  331 km/soat
+                </span>
+              </div>
+              <div class="car-footer">
+                <span>Sport avtomobil</span>
+                <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn h-9 px-4 py-2">
+                  Batafsil ko‘rish
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- COMPARISON -->
+      <section id="compare" class="comparison section-band">
+        <div class="container">
+          <div class="section-top">
+            <div>
+              <p class="section-label">RAQAMLAR GAPIRSIN</p>
+              <h2>Yonma-yon taqqosla.</h2>
+            </div>
+            <p>Ikki xarakter. Bir qaror.</p>
+          </div>
+
+          <div class="comparison-grid">
+            <div class="comparison-column">
+              <label>
+                Birinchi avtomobil
+                <select aria-label="Birinchi avtomobil">
+                  <option value="porsche" selected>Porsche 911 GT3</option>
+                  <option value="bmw">BMW M4 Competition</option>
+                  <option value="ferrari">Ferrari 296 GTB</option>
+                  <option value="lamborghini">Lamborghini Huracán EVO</option>
+                  <option value="mercedes">Mercedes-Benz AMG GT S</option>
+                  <option value="audi">Audi R8 V10 Performance</option>
+                </select>
+              </label>
+              <img src="images/porsche.jpg" alt="Porsche 911 GT3" loading="lazy" width="1024" height="640">
+              <h3>Porsche 911 GT3</h3>
+            </div>
+
+            <div class="comparison-column">
+              <label>
+                Ikkinchi avtomobil
+                <select aria-label="Ikkinchi avtomobil">
+                  <option value="porsche">Porsche 911 GT3</option>
+                  <option value="bmw">BMW M4 Competition</option>
+                  <option value="ferrari" selected>Ferrari 296 GTB</option>
+                  <option value="lamborghini">Lamborghini Huracán EVO</option>
+                  <option value="mercedes">Mercedes-Benz AMG GT S</option>
+                  <option value="audi">Audi R8 V10 Performance</option>
+                </select>
+              </label>
+              <img src="images/ferrari.jpg" alt="Ferrari 296 GTB" loading="lazy" width="1024" height="640">
+              <h3>Ferrari 296 GTB</h3>
+            </div>
+          </div>
+
+          <div class="comparison-rows" aria-live="polite">
+            <div class="comparison-row">
+              <span class="">510 ot kuchi</span>
+              <p>Dvigatel quvvati</p>
+              <span class="winner">
+                830 ot kuchi
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check" aria-hidden="true">
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+              </span>
+            </div>
+
+            <div class="comparison-row">
+              <span class="">3.4 soniya</span>
+              <p>0–100 km/soat</p>
+              <span class="winner">
+                2.9 soniya
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check" aria-hidden="true">
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+              </span>
+            </div>
+
+            <div class="comparison-row">
+              <span class="">318 km/soat</span>
+              <p>Maksimal tezlik</p>
+              <span class="winner">
+                330 km/soat
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check" aria-hidden="true">
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+              </span>
+            </div>
+          </div>
+
+          <p class="data-note">Ko‘rsatkichlar model versiyasi va sinov sharoitiga qarab farq qilishi mumkin.</p>
+        </div>
+      </section>
+
+      <!-- SPOTLIGHT -->
+      <section class="spotlight section-band">
+        <div class="container spotlight-grid">
+          <div class="spotlight-copy">
+            <p class="section-label">DIQQAT MARKAZIDA</p>
+            <h2>
+              Lamborghini<br>
+              Huracán EVO.
+            </h2>
+            <p>Jasoratning o‘z rangi bor. Atmosfera V10 dvigateli, o‘tkir chiziqlar va har bir detalda Italiya ruhi.</p>
+
+            <div class="spotlight-numbers">
+              <span><strong>640</strong>ot kuchi</span>
+              <span><strong>2.9 s</strong>0–100 km/soat</span>
+              <span><strong>V10</strong>dvigatel</span>
+            </div>
+
+            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn btn-primary h-9 px-4 py-2">
+              Modelni kashf etish
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path>
+              </svg>
+            </button>
+          </div>
+
+          <img src="images/lamborghini.jpg" alt="Sariq Lamborghini Huracán EVO" loading="lazy" width="1024" height="640">
+        </div>
+      </section>
+
+      <!-- VALUES -->
+      <section class="values section-band">
+        <div class="container">
+          <p class="section-label">HAR BIR DETAL MUHIM</p>
+          <h2>Mukammallik uch narsada.</h2>
+
+          <div class="values-grid">
+            <article class="value-item">
+              <div class="value-heading">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap" aria-hidden="true">
+                  <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+                </svg>
+                <span>01</span>
+              </div>
+              <h3>Sof quvvat</h3>
+              <p>Dvigatel ovozidan birinchi tezlanishgacha — muhandislik va hissiyotning uyg‘unligi.</p>
+            </article>
+
+            <article class="value-item">
+              <div class="value-heading">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gauge" aria-hidden="true">
+                  <path d="m12 14 4-4"></path>
+                  <path d="M3.34 19a10 10 0 1 1 17.32 0"></path>
+                </svg>
+                <span>02</span>
+              </div>
+              <h3>Aniq boshqaruv</h3>
+              <p>Muvozanatli shassi, tezkor uzatma va yo‘l bilan uzluksiz aloqa.</p>
+            </article>
+
+            <article class="value-item">
+              <div class="value-heading">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check" aria-hidden="true">
+                  <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                  <path d="m9 12 2 2 4-4"></path>
+                </svg>
+                <span>03</span>
+              </div>
+              <h3>O‘ylangan xavfsizlik</h3>
+              <p>Kuchli tormozlar va zamonaviy yordamchilar. Haydash zavqi mas’uliyat bilan boshlanadi.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- JOURNAL -->
+      <section id="journal" class="journal section-band container">
+        <div class="section-top">
+          <div>
+            <p class="section-label">AUTOVA JURNALI</p>
+            <h2>Avtomobilni yaxshiroq angla.</h2>
+          </div>
+          <p>Qiziqarli bilimlar va foydali maslahatlar.</p>
+        </div>
+
+        <div class="journal-grid">
+
+          <article class="journal-item">
+            <img src="images/porsche.jpg" alt="Atmosfera yoki turbo?" width="1024" height="640" loading="lazy">
+            <div class="journal-copy">
+              <p class="section-label">DVIGATEL · 2 DAQIQA</p>
+              <h3>Atmosfera yoki turbo?</h3>
+              <p>Quvvat qanday yaratiladi va haydashda qanday seziladi?</p>
+              <details>
+                <summary>
+                  Davomini o‘qish
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </summary>
+                <p>Atmosfera dvigateli havoni tabiiy ravishda tortadi va gaz pedaliga ravon javob beradi. Turbo esa chiqindi gaz energiyasi orqali ko‘proq havo siqib, kichikroq hajmdan yuqori quvvat olishga yordam beradi. Tanlov faqat ot kuchiga emas, dvigatel xarakteriga ham bog‘liq.</p>
+              </details>
+            </div>
+          </article>
+
+          <article class="journal-item">
+            <img src="images/bmw.jpg" alt="Aerodinamika san’ati" width="1024" height="640" loading="lazy">
+            <div class="journal-copy">
+              <p class="section-label">TEXNOLOGIYA · 2 DAQIQA</p>
+              <h3>Aerodinamika san’ati</h3>
+              <p>Har bir chiziqning ortida muhandislik bor.</p>
+              <details>
+                <summary>
+                  Davomini o‘qish
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </summary>
+                <p>Spoyler, diffuzor va havo kanallari shunchaki bezak emas. Ular havo oqimini yo‘naltirib, yuqori tezlikda avtomobilni yo‘lga bosishga va dvigatelni sovitishga yordam beradi. Past havo qarshiligi esa samaradorlikni oshiradi.</p>
+              </details>
+            </div>
+          </article>
+
+          <article class="journal-item">
+            <img src="images/ferrari.jpg" alt="Sport avtomobilini asrash" width="1024" height="640" loading="lazy">
+            <div class="journal-copy">
+              <p class="section-label">AVTO MASLAHAT · 2 DAQIQA</p>
+              <h3>Sport avtomobilini asrash</h3>
+              <p>Uzoq xizmat muddati kichik odatlardan boshlanadi.</p>
+              <details>
+                <summary>
+                  Davomini o‘qish
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </summary>
+                <p>Shina bosimini sovuq holatda tekshiring, moy va suyuqliklarni ishlab chiqaruvchi jadvaliga ko‘ra almashtiring. Sovuq dvigatelga keskin yuk bermang. Tormozlar va shinalarning holatini muntazam nazorat qiling; tezlikni faqat qonuniy, xavfsiz sharoitda sinang.</p>
+              </details>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="faq section-band">
+        <div class="container faq-grid">
+          <div>
+            <p class="section-label">SAVOL VA JAVOBLAR</p>
+            <h2>
+              Qiziqdingizmi?<br>
+              Javoblar shu yerda.
+            </h2>
+            <p>Avtomobillar olamining eng ko‘p uchraydigan savollari.</p>
+          </div>
+
+          <div>
+            <details>
+              <summary>
+                Ot kuchi nimani bildiradi?
+                <span aria-hidden="true">+</span>
+              </summary>
+              <p>Ot kuchi dvigatel quvvatining o‘lchov birligi. Yuqori quvvat tezlanish va maksimal tezlikka ta’sir qiladi, lekin avtomobil og‘irligi, uzatma va shinalar ham muhim.</p>
+            </details>
+
+            <details>
+              <summary>
+                0–100 ko‘rsatkichi nima?
+                <span aria-hidden="true">+</span>
+              </summary>
+              <p>Bu avtomobil tinch holatdan 100 km/soat tezlikka qancha vaqtda chiqishini bildiradi. Kichikroq son tezroq tezlanishni anglatadi. Natija yo‘l va ob-havo sharoitiga qarab o‘zgaradi.</p>
+            </details>
+
+            <details>
+              <summary>
+                Sport avtomobili va superkar farqi nimada?
+                <span aria-hidden="true">+</span>
+              </summary>
+              <p>Sport avtomobili boshqaruv zavqi va chaqqonlikka e’tibor beradi. Superkar odatda yanada yuqori quvvat, ilg‘or texnologiya va eksklyuziv dizayn bilan ajralib turadi. Bu toifalar orasida qat’iy yagona chegara yo‘q.</p>
+            </details>
+
+            <details>
+              <summary>
+                Ko‘rsatilgan rasmlar haqiqiymi?
+                <span aria-hidden="true">+</span>
+              </summary>
+              <p>Saytdagi avtomobil rasmlari sun’iy intellekt yordamida yaratilgan illyustratsiyalardir. Ayrim tashqi detallar haqiqiy modeldan farq qilishi mumkin. Texnik ko‘rsatkichlar model versiyasiga qarab o‘zgaradi.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="experience" id="about">
+        <div class="experience-inner container">
+          <div>
+            <p class="section-label">AVTOMOBILLARGA BO‘LGAN ISHTIYOQ</p>
+            <h2>Bu shunchaki yo‘l emas.</h2>
+            <p aria-live="polite">Bu — erkinlik, adrenalin va yangi manzillar. AUTOVA avtomobillarga bo‘lgan ishtiyoqni bir joyga jamlaydi.</p>
+          </div>
+
+          <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 site-btn btn-primary h-9 px-4 py-2">
+            Qiziqarli faktni ochish
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap" aria-hidden="true">
+              <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path>
+            </svg>
+          </button>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <a href="#home" class="wordmark" aria-label="AUTOVA bosh sahifa">
+        <span class="brand-mark">
+          <i></i>
+          <i></i>
+          <i></i>
+        </span>
+        AUTO<span>VA</span>
+      </a>
+
+      <p>© 2026 AUTOVA. Avtomobillarga bo‘lgan ishtiyoq bilan.</p>
+
+      <a class="footer-link" href="#home">
+        Yuqoriga qaytish
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+          <path d="M7 7h10v10"></path>
+          <path d="M7 17 17 7"></path>
+        </svg>
+      </a>
+    </footer>
+
+  </div>
+</body>
+  <script src="script.js" defer></script>
+</html>
